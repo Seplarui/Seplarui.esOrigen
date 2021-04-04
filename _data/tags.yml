@@ -1,0 +1,16 @@
+java:
+  name: java
+  description: Apuntes sobre Java.
+  cover: assets/images/java_tag.jpg
+angular:
+  name: angular
+  description: Apuntes sobre Angular.
+  cover: assets/images/angular_tag.png
+nodejs:
+  name: nodejs
+  description: Apuntes sobre Nodejs.
+  cover: assets/images/nodejs_tag.png
+varios:
+  name: varios
+  description: Apuntes varios.
+  cover: assets/images/varios_tag.png
