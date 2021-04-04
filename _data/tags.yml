@@ -14,3 +14,7 @@ varios:
   name: varios
   description: Apuntes varios.
   cover: assets/images/varios_tag.png
+proyectos:
+  name: proyectos
+  description: Proyectos realizados.
+  cover: assets/images/proyectos_tag.png
