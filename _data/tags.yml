@@ -18,3 +18,7 @@ proyectos:
   name: proyectos
   description: Proyectos realizados.
   cover: assets/images/proyectos_tag.png
+cursos:
+  name: cursos
+  description: Cursos realizados.
+  cover: assets/images/cursos/bombilla_curso.jpeg
