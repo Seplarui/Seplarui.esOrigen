@@ -229,7 +229,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin-right: 24px;
     padding: 11px 0;
     color: #fff;
-    font-size: 1.7rem;
+    font-size: 2rem;
     line-height: 1em;
     font-weight: bold;
     letter-spacing: -0.5px;
@@ -257,6 +257,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0;
     padding: 0;
     text-transform: uppercase;
+    font-size:150%;
 }
 
 .nav li a {
@@ -264,12 +265,13 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0;
     padding: 10px 12px;
     color: #fff;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .nav li a:hover {
     text-decoration: none;
     opacity: 1;
+    color:yellow;
 }
 
 .site-nav-right {
@@ -296,28 +298,37 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0;
     padding: 10px;
     color: #fff;
-    opacity: 0.8;
-}
-
-.social-link:hover {
     opacity: 1;
 }
 
+.social-link:hover {
+    color:yellow;
+    height: 12rem;
+}
+
 .social-link svg {
-    height: 1.8rem;
+    height: 12rem;
     fill: #fff;
 }
 
-.social-link-fb svg {
-    height: 1.5rem;
+.social-link svg:hover {
+    fill: yellow;
 }
 
-.social-link-wb svg {
-    height: 1.6rem;
+.social-link-tw svg {
+    height: 3rem;
 }
 
-.social-link-wb svg path {
-    stroke: #fff;
+.social-link-gh svg {
+    height: 12rem;
+}
+
+.social-link-ln svg {
+    height: 12rem;
+}
+
+.social-link-yt svg{
+    height: 12rem;
 }
 
 .social-link-rss svg {
