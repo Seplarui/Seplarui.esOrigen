@@ -4,7 +4,8 @@
     "demo": "https://demo.ghost.io",
     "version": "2.1.9",
     "scripts": {
-	"gulp": "gulp"
+        "preinstall": "npx npm-force-resolutions",
+        "gulp": "gulp"
     },
     "engines": {
         "ghost": ">=1.2.0"
@@ -52,5 +53,8 @@
     },
     "config": {
         "posts_per_page": 25
+    },
+    "resolutions": {
+        "graceful-fs": "^4.2.4"
     }
 }
